@@ -85,3 +85,168 @@ main{
     font-weight: 700;
     margin-bottom: 265px;
 }
+
+/*Action section styles*/
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 115px 0px;
+}
+
+.see-it{
+    max-width: 520px;
+}
+
+.section-heading{
+    color: #252432;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.section-description{
+    color: rgba(37, 36, 50, 0.50);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.action-image{
+    border-radius: 45px;
+}
+
+/*user section styles*/
+
+.user-section{
+    text-align: center;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px 150px;
+    border-radius: 15px;
+}
+
+.user-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.info-des{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+/*review section styles*/
+
+.user-review-section{
+    text-align: center;
+    padding: 135px 0px;
+}
+
+.user-review{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review{
+    max-width: 368px;
+    text-align: left;
+    background: white;
+    border-radius: 14px;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/*focus section styles*/
+
+.focus-section{
+    text-align: center;
+    background: #FFF;
+    border-radius: 15px;
+    padding: 72px 0px;
+}
+
+.focus-section-heading{
+    color: #252432;
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+.focus-description{
+    color: rgba(37, 36, 50, 0.50);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.focus-image{
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/*get in touch section*/
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.get-touch-heading{
+    color: #252432;
+    font-family: Raleway;
+    font-size: 97px;
+    font-weight: 700;
+    width: 525px;
+}
+
+.form-title{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="text"], input[type="email"], textarea{
+    height: 50px;
+    width: 500px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-get-touch{
+    width: 100%;
+    padding: 19px 101px;
+    margin-top: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background:#4E47FF;
+}
