@@ -250,3 +250,38 @@ input[type="text"], input[type="email"], textarea{
     color: #FFFFFF;
     background:#4E47FF;
 }
+
+/*footer styles*/
+
+footer{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.footer-heading{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.footer-description{
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
